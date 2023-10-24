@@ -17,16 +17,17 @@ const LoginSignup = () => {
                     <img src={user_icon} alt="" />
                     <input type="text" />
                 </div>
-
                 <div className="input">
                     <img src={email_icon} alt="" />
                     <input type="email" />
                 </div>
-
                 <div className="input">
                     <img src={password_icon} alt="" />
                     <input type="password" />
                 </div>
+            </div>
+            <div className="submit-container">
+                <div className="submit"></div>
             </div>
         </div>
     )
